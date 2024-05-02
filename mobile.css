@@ -1,16 +1,18 @@
-
+@media screen { max-width: 480p;
+    
+}
 body{
     background-color: rgba(0,0,0,0.8);
     border: black;
-    margin: 0;
-    
+    background-position: center;
+    /* margin: 0; */
+    overflow-x: hidden;
+
 }
+
 .div1{
     background: url(Images/netflix\ background.jpg);
-    backface-visibility: hidden;
-    background-position-x: center;
-    margin-bottom: .5rem;
-   
+    
 }
 .div2{
     background: black;
@@ -18,15 +20,12 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20rem;
-    justify-content: center;
-    margin-bottom: .5rem;
-}
+}  
 nav{
     display: flex;
     flex-direction: row;
-    gap: 50rem;
-    margin-left: 10rem;
+    gap: 2rem;
+    margin-left: 5rem;
 }
 nav .button{
     margin-top: 1.5rem;
@@ -52,14 +51,16 @@ nav .button{
     padding: .5rem;
 }
 .text1{
-    font-size: xx-large;
+    font-size: x-large;
     color: red;
-    font-weight: 600;
+    font-weight: 400;
+    text-align: center
 }
 .text2{
     color: white;
     font-size: x-large;
     font-weight: bolder;
+    text-align: center
 }
 .text2 h1{
     margin-top: -4rem;
@@ -79,8 +80,6 @@ nav .button{
 .bob{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 120vh;
 }
 .bob #input{
@@ -89,7 +88,7 @@ nav .button{
     
 }
 .bob #email{
-    width: 25rem;
+    width: 20rem;
     height: 2.9rem;
     background: rgba(0,0,0,0.8);
     color: white;
@@ -117,17 +116,15 @@ nav .button{
     gap: 5rem;
     color: white;
 }
-
-    /* /* height: 95vh; */
-
 .div3{
     background: black;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 15rem;
+    /* width: 50px; */
+    /* align-items: center; */
+    gap: 5rem;
     height: 95vh;
-     margin-bottom: .5rem;
+ margin-bottom: .5rem;
 }
 .text5{
     color: white;
@@ -138,8 +135,8 @@ nav .button{
 .div4{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     gap: 1rem;
     background: black;
     margin-bottom: .5rem;
@@ -154,9 +151,9 @@ nav .button{
 .div5{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 1rem;
     background: black;
     margin-bottom: .5rem;
 }
@@ -173,9 +170,9 @@ nav .button{
 .div6{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 1rem;
     background: black;
     margin-bottom: .5rem;
 
@@ -186,13 +183,13 @@ nav .button{
 .div6 .list{
     display: flex;
     flex-direction: column;
-    width: 60rem;
+    width: 25rem;
     gap: .2rem;
     border: 2rem;
     
 }
 .div6 .list #button{
-    width: 60rem;
+    width: 40rem;
     height: 5rem;
     padding: .5rem;
     background: rgb(56, 51, 51);
@@ -208,7 +205,7 @@ nav .button{
 }
 .div6 #coco{
     color: white;
-
+    text-align: center;
 }
 
 .div6 .input2{
@@ -217,7 +214,7 @@ nav .button{
     gap: .5rem;
 }
 .input2 #email{
-    width: 25rem;
+    width: 10rem;
     height: 2.9rem;
     background: rgb(39, 35, 35);
     color: white;
@@ -226,7 +223,7 @@ nav .button{
     padding: .5rem;
 }
 .input2 #btn{
-    width: 10rem;
+    width: 8rem;
     height: 4rem;
     padding: .5rem;
     background: red;
@@ -246,6 +243,7 @@ nav .button{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-align: center;
 
 }
 .div7 .text a{
@@ -278,4 +276,5 @@ nav .button{
     background-color: black;
     color: white;
 }
-@import url(mobile.css);
+
+
