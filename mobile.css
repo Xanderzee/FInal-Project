@@ -6,10 +6,7 @@
     
 body{
     background-color: rgba(0,0,0,0.8);
-    border: black;
-    margin: 0;
-    width: 100%;
-    overflow-x: hidden;
+    border: black;  
     
 }
 .div1{
@@ -48,7 +45,8 @@ body{
 nav{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 0.00rem;
+    margin-left: 0rem;
 
 }
 nav .button{
@@ -74,7 +72,8 @@ nav .button{
     border-radius: .5rem;
     padding: .5rem;
 }
-.text1{
+#net{
+    margin-right: 10rem;
     font-size: xx-large;
     color: red;
     font-weight: 600;
@@ -109,10 +108,12 @@ nav .button{
 .bob #input{
     display: flex;
     flex-direction: row;
-    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .bob #email{
-    width: 25rem;
+    width: 20rem;
     height: 2.9rem;
     background: rgba(0,0,0,0.8);
     color: white;
@@ -144,11 +145,10 @@ nav .button{
     /* /* height: 95vh; */
 
 .div3{
-    /* width: 30px; */
     background: black;
     display: flex;
     flex-direction: row;
-    gap: .5rem;
+    gap: .3rem;
     height: 95vh;
      margin-bottom: .5rem;
 }
@@ -210,13 +210,13 @@ nav .button{
 .div6 .list{
     display: flex;
     flex-direction: column;
-    width: 25rem;
+    width: 100%;
     gap: .2rem;
     border: 2rem;
     
 }
 .div6 .list #button{
-    width: 45rem;
+    width: 100%;
     height: 5rem;
     padding: .5rem;
     background: rgb(56, 51, 51);
