@@ -12,6 +12,10 @@ body{
     margin-bottom: .5rem;
    
 }
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
 .div2{
     background: black;
     background-size: cover;
@@ -278,4 +282,3 @@ nav .button{
     background-color: black;
     color: white;
 }
-@import url(mobile.css);

@@ -1,281 +1,306 @@
-@media only screen and (max-width: 480px) {
-    body{
-        background-color: rgba(0,0,0,0.8);
-        overflow-x: hidden;
-    
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
     }
     
-    .div1{
-        background: url(Images/netflix\ background.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-    .div2{
-        background: black;
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }  
-    nav{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-left: 5rem;
-    }
-    nav .button{
-        margin-top: 1.5rem;
-        width: 4rem;
-        height: 1rem;
-        padding: .5rem;
-        background: red;
-        color: white; 
-        font-weight: 500;
-        text-align-last: center;
-        font-size: small;
-        font-family: Arial;
-        cursor: pointer;
-    }
-        nav .logo{
-            margin-top: 1rem;
-        }
-    .button{
-        color: white;
-        background-color: red;
-        border: 2rem;
-        border-radius: .5rem;
-        padding: .5rem;
-    }
-    .text1{
-        font-size: x-large;
-        color: red;
-        font-weight: 400;
-        text-align: center
-    }
-    .text2{
-        color: white;
-        font-size: x-large;
-        font-weight: bolder;
-        text-align: center
-    }
-    .text2 h1{
-        margin-top: -4rem;
-        font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-weight: 600;
-        font: bolder;
-       }
-    .text3{
-        color: white;
-        font-size: xx-large;
-        justify-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-    .bob{
-        display: flex;
-        flex-direction: column;
-        height: 120vh;
-    }
-    .bob #input{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    .bob #email{
-        width: 20rem;
-        height: 2.9rem;
-        background: rgba(0,0,0,0.8);
-        color: white;
-        border: 2rem;
-        outline-color: red;
-        padding: .5rem; 
-    }
-    .bob #btn{
-        width: 10rem;
-        height: 4rem;
-        padding: .5rem;
-        background: red;
-        border: none;
-        outline: none;
-        color: white; 
-        font-weight: 600;
-        font-size: large;
-        font-family: Arial;
-        cursor: pointer;
-    }
-    .text4{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 5rem;
-        color: white;
-    }
-    .div3{
-        background: black;
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        /* width: 50px; */
-        /* align-items: center; */
-        gap: 5rem;
-        height: 95vh;
-     margin-bottom: .5rem;
-    }
-    .text5{
-        color: white;
-    }
-    .text6{
-        color: white;
-    }
-    .div4{
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center;
-        align-items: center; */
-        gap: 1rem;
-        background: black;
-        margin-bottom: .5rem;
-    }
-    .ft{
-        font-size: x-large;
-        font-weight: bolder;
-    }
-    .text6 span{
-        font-size: large;
-    }
-    .div5{
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center;
-        align-items: center; */
-        gap: 1rem;
-        background: black;
-        background-size: cover;
-        margin-bottom: .5rem;
-    }
-    .text7{
-        color: white;
-    }
-    .hd{
-        font-size: x-large;
-        font-weight: bolder;
-    }
-    .text7 span{
-        font-size: large;
-    }
-    .div6{
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
-        gap: 1rem;
-        background: black;
-        margin-bottom: .5rem;
-    
-    }
-    .div6 .text{
-        color: white;
-    }
-    .div6 .list{
-        display: flex;
-        flex-direction: column;
-        width: 25rem;
-        gap: .2rem;
-        border: 2rem;
-        
-    }
-    .div6 .list #button{
-        width: 40rem;
-        height: 5rem;
-        padding: .5rem;
-        background: rgb(56, 51, 51);
-        border: none;
-        outline: none;
-        color: white; 
-        font-weight: 600;
-        font-size: large;
-        font-family: Arial;
-        cursor: pointer;
-       text-align: start;
-       
-    }
-    .div6 #coco{
-        color: white;
-        text-align: center;
-    }
-    
-    .div6 .input2{
-        display: flex;
-        flex-direction: row;
-        gap: .5rem;
-    }
-    .input2 #email{
-        width: 10rem;
-        height: 2.9rem;
-        background: rgb(39, 35, 35);
-        color: white;
-        border: 2rem;
-        outline-color: green;
-        padding: .5rem;
-    }
-    .input2 #btn{
-        width: 8rem;
-        height: 4rem;
-        padding: .5rem;
-        background: red;
-        border: none;
-        outline: none;
-        color: white; 
-        font-weight: 600;
-        font-size: large;
-        font-family: Arial;
-        cursor: pointer;
-        
-    }
-    .div7{
-        /* background: black; */
-        background-size: cover;
-    }
-    .div7 .text{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-    
-    }
-    .div7 .text a{
-        color: white;
-    }
-    .side1{
-        display: flex;
-        flex-direction: column;
-    
-    }
-    .side1 span{
-        color: white;
-    }
-    .side2{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .side3{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .side4{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    #bar{
-        /* background-color: black; */
-        background-size: cover;
-        color: white;
-    }
+body{
+    background-color: rgba(0,0,0,0.8);
+    border: black;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
     
 }
+.div1{
+    background: url(Images/netflix\ background.jpg);
+    margin-bottom: .5rem;
+   
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
+.div2{
+    background: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+#tv1{
+    width: 100%;
+}
+#phone{
+    width: 70%;
+}
+#hug{
+    width: 70%;
+
+}
+#kids{
+    width: 70%;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+nav .button{
+    margin-top: 1.5rem;
+    width: 4rem;
+    height: 1rem;
+    padding: .5rem;
+    background: red;
+    color: white; 
+    font-weight: 500;
+    text-align-last: center;
+    font-size: small;
+    font-family: Arial;
+    cursor: pointer;
+}
+    nav .logo{
+        margin-top: 1rem;
+    }
+.button{
+    color: white;
+    background-color: red;
+    border: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.text1{
+    font-size: xx-large;
+    color: red;
+    font-weight: 600;
+}
+.text2{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.text2 h1{
+    margin-top: -4rem;
+    font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font: bolder;
+   }
+.text3{
+    color: white;
+    font-size: xx-large;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+.bob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.bob #input{
+    display: flex;
+    flex-direction: row;
+    
+}
+.bob #email{
+    width: 25rem;
+    height: 2.9rem;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    border: 2rem;
+    outline-color: red;
+    padding: .5rem; 
+}
+.bob #btn{
+    width: 10rem;
+    height: 4rem;
+    padding: .5rem;
+    background: red;
+    border: none;
+    outline: none;
+    color: white; 
+    font-weight: 600;
+    font-size: large;
+    font-family: Arial;
+    cursor: pointer;
+}
+.text4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    color: white;
+}
+
+    /* /* height: 95vh; */
+
+.div3{
+    /* width: 30px; */
+    background: black;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    height: 95vh;
+     margin-bottom: .5rem;
+}
+.text5{
+    color: white;
+}
+.text6{
+    color: white;
+}
+.div4{
+    /* width: 30px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    gap: .1rem;
+    background: black;
+    margin-bottom: .5rem;
+}
+.ft{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.text6 span{
+    font-size: large;
+}
+.div5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: black;
+    margin-bottom: .5rem;
+}
+.text7{
+    color: white;
+}
+.hd{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.text7 span{
+    font-size: large;
+}
+.div6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: black;
+    margin-bottom: .5rem;
+
+}
+.div6 .text{
+    color: white;
+}
+.div6 .list{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    gap: .2rem;
+    border: 2rem;
+    
+}
+.div6 .list #button{
+    width: 45rem;
+    height: 5rem;
+    padding: .5rem;
+    background: rgb(56, 51, 51);
+    border: none;
+    outline: none;
+    color: white; 
+    font-weight: 600;
+    font-size: large;
+    font-family: Arial;
+    cursor: pointer;
+   text-align: start;
+   
+}
+.div6 #coco{
+    color: white;
+
+}
+
+.div6 .input2{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+.input2 #email{
+    width: 14rem;
+    height: 2.9rem;
+    background: rgb(39, 35, 35);
+    color: white;
+    border: 2rem;
+    outline-color: green;
+    padding: .5rem;
+}
+.input2 #btn{
+    width: 9rem;
+    height: 4rem;
+    padding: .5rem;
+    background: red;
+    border: none;
+    outline: none;
+    color: white; 
+    font-weight: 600;
+    font-size: large;
+    font-family: Arial;
+    cursor: pointer;
+    
+}
+.div7{
+    background: black;
+}
+.div7 .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.div7 .text a{
+    color: white;
+}
+.side1{
+    display: flex;
+    flex-direction: column;
+
+}
+.side1 span{
+    color: white;
+}
+.side2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side4{
+    display: flex;
+    flex-direction: column;
+    
+}
+#bar{
+    background-color: black;
+    color: white;
+}
+
+  }
